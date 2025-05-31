@@ -60,7 +60,7 @@ export default function ContactPage() {
                 className="text-4xl font-bold mb-8 drop-shadow-lg"
                 style={{ color: 'var(--color-raven-black)' }}
               >
-                We're Ready. Let's Talk.
+                We&apos;re Ready. Let&apos;s Talk.
               </h2>
               
               <form onSubmit={handleSubmit} className="space-y-6">

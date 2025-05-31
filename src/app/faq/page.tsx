@@ -183,7 +183,7 @@ export default function FAQPage() {
               ></div>
               <div className="space-y-4 text-lg leading-relaxed drop-shadow-sm" style={{ color: 'var(--color-raven-black)' }}>
                 <p>
-                  Today's property management industry follows a corporate, online-only structure. It's so prevalent it seems like the only way.
+                  Today&apos;s property management industry follows a corporate, online-only structure. It&apos;s so prevalent it seems like the only way.
                 </p>
                 <p className="font-semibold">
                   But you have a choice.
@@ -306,7 +306,7 @@ export default function FAQPage() {
               className="text-lg mb-8 drop-shadow-sm"
               style={{ color: 'var(--color-raven-black)' }}
             >
-              Each owner is different in what they want from a property manager. Let's discuss your specific needs and see if we're the right fit.
+              Each owner is different in what they want from a property manager. Let&apos;s discuss your specific needs and see if we&apos;re the right fit.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">

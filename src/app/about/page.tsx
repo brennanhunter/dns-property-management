@@ -65,7 +65,7 @@ export default function AboutPage() {
                 
                 <div className="space-y-6 text-lg leading-relaxed" style={{ color: 'var(--color-raven-black)' }}>
                   <p className="transform hover:scale-[1.02] transition-all duration-300 text-xl font-medium italic">
-                    "My name is Sue, and I&apos;m the owner and operator of D&S Property Management here in beautiful Great Falls, Montana."
+                    &quot;My name is Sue, and I&apos;m the owner and operator of D&S Property Management here in beautiful Great Falls, Montana.&quot;
                   </p>
                   <p className="transform hover:scale-[1.02] transition-all duration-300">
                     <strong>Born and raised</strong> in this amazing community, I feel truly blessed to call Great Falls home. My Montana roots have shaped the values I bring to my work — <em>hardworking, trustworthy, and reliable service with genuine care for people.</em>
@@ -164,7 +164,7 @@ export default function AboutPage() {
 
                 <div className="mt-8 p-6 bg-white/10 rounded-xl border-l-4 border-orange-400">
                   <p className="italic font-medium text-orange-400">
-                    "I treat every resident like a neighbor — because they are!"
+                    &quot;I treat every resident like a neighbor — because they are!&quot;
                   </p>
                 </div>
               </div>
@@ -216,7 +216,7 @@ export default function AboutPage() {
 
               <div className="mb-8 p-6 bg-white/10 rounded-xl">
                 <p className="text-xl font-medium italic mb-4" style={{ color: 'var(--color-dark-red)' }}>
-                  "Thank you for considering D&S Property Management. Whether you&apos;re a property owner or someone looking for housing, I look forward to serving you."
+                  &quot;Thank you for considering D&S Property Management. Whether you&apos;re a property owner or someone looking for housing, I look forward to serving you.&quot;
                 </p>
                 <p className="text-lg font-semibold text-orange-400">— Sue</p>
               </div>

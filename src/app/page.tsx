@@ -15,7 +15,7 @@ const DNSPropertyHomepage = () => {
       <section 
         className="relative h-screen flex items-center justify-center"
         style={{
-          backgroundImage: "url('/images/hero.JPG')",
+          backgroundImage: "url('/images/hero.jpg')",
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat'

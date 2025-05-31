@@ -30,14 +30,15 @@ const DNSPropertyHomepage = () => {
           <p className="text-xl md:text-2xl mb-10 font-semibold leading-relaxed" style={{color: '#a54034'}}>
             20 Years of Trusted Care — Where Service Still Means Something.
           </p>
-          <button 
-            className="text-white px-10 py-5 rounded-lg text-lg font-semibold transition-all duration-300 transform hover:scale-105 hover:shadow-lg"
-            style={{backgroundColor: '#a54034'}}
-            onMouseEnter={(e) => (e.target as HTMLButtonElement).style.backgroundColor = '#8a2e24'}
-            onMouseLeave={(e) => (e.target as HTMLButtonElement).style.backgroundColor = '#a54034'}
-          >
-            Call Now
-          </button>
+<a 
+  href="tel:+14065906089"
+  className="text-white px-10 py-5 rounded-lg text-lg font-semibold transition-all duration-300 transform hover:scale-105 hover:shadow-lg inline-block"
+  style={{backgroundColor: '#a54034'}}
+  onMouseEnter={(e) => (e.target as HTMLAnchorElement).style.backgroundColor = '#8a2e24'}
+  onMouseLeave={(e) => (e.target as HTMLAnchorElement).style.backgroundColor = '#a54034'}
+>
+  Call Now
+</a>
         </div>
       </section>
 

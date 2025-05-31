@@ -199,6 +199,16 @@ export default function Footer() {
               <span className="mx-2">|</span>
               Proudly serving Great Falls, Montana since 2005
             </p>
+            <p className="text-xs">
+          <a
+            href="https://xtremery.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block bg-gradient-to-r from-purple-500 via-pink-500 to-blue-500 bg-clip-text text-transparent animate-pulse hover:animate-shimmer"
+          >
+            3D-printed and pixel-polished by Xtremery · Deland, FL
+          </a>
+        </p>
           </div>
         </div>
 

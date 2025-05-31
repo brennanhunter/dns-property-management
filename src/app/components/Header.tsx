@@ -32,7 +32,7 @@ export default function Header() {
             <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-white/10 backdrop-blur-sm flex items-center justify-center group-hover:bg-anzac/20 transition-all duration-300">
               <Phone className="w-4 h-4 sm:w-5 sm:h-5" />
             </div>
-            <span className="hidden xs:block">(406) 590-6089</span>
+            <span className="hidden sm:block">(406) 590-6089</span>
           </a>
 
           {/* Navigation Links - Right Side */}

@@ -1,6 +1,7 @@
 'use client'
 
 import React, { useState } from 'react';
+import Link from 'next/link';
 import { Phone, Mail, MapPin, Facebook, Instagram, Linkedin } from 'lucide-react';
 import ContactModal from './ContactModal'; // Adjust path as needed
 
@@ -119,12 +120,12 @@ export default function Footer() {
               {/* Quick Links */}
               <ul className="space-y-3 text-gray-300 mb-8">
                 <li>
-                  <a 
+                  <Link 
                     href="/" 
                     className="hover:text-white transition-colors duration-300 block"
                   >
                     Home
-                  </a>
+                  </Link>
                 </li>
                 <li>
                   <a 

@@ -69,8 +69,6 @@ export default function ContactPage() {
       } else {
         setSubmitStatus('error')
       }
-    } catch (error) {
-      setSubmitStatus('error')
     } finally {
       setIsSubmitting(false)
     }
@@ -114,7 +112,7 @@ export default function ContactPage() {
             <CheckCircle className="w-6 h-6 text-green-600 mr-3" />
             <div>
               <h3 className="text-lg font-semibold text-green-800">Message Sent Successfully!</h3>
-              <p className="text-green-700">Thank you for contacting us. We'll get back to you within 24 hours.</p>
+              <p className="text-green-700">Thank you for contacting us. We&apos;ll get back to you within 24 hours.</p>
             </div>
           </div>
         </div>

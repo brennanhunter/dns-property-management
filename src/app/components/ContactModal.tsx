@@ -101,8 +101,6 @@ export default function ContactModal({ isOpen, onClose }: ContactModalProps) {
       } else {
         setSubmitStatus('error');
       }
-    } catch (error) {
-      setSubmitStatus('error');
     } finally {
       setIsSubmitting(false);
     }
@@ -161,7 +159,7 @@ export default function ContactModal({ isOpen, onClose }: ContactModalProps) {
             </div>
             <h3 className="text-2xl font-bold text-gray-800 mb-2">Thank You!</h3>
             <p className="text-gray-600 mb-4">
-              Your message has been sent successfully. We'll get back to you within 24 hours.
+              Your message has been sent successfully. We&apos;ll get back to you within 24 hours.
             </p>
             <p className="text-sm text-gray-500">This window will close automatically...</p>
           </div>
@@ -356,7 +354,7 @@ export default function ContactModal({ isOpen, onClose }: ContactModalProps) {
 
             {/* Contact Info */}
             <div className="pt-6 border-t border-gray-200 text-center">
-              <p className="text-gray-600 mb-4">Prefer to call? We're here to help!</p>
+              <p className="text-gray-600 mb-4">Prefer to call? We&apos;re here to help!</p>
               <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                 <a
                   href="tel:+14065906089"

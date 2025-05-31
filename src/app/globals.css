@@ -24,3 +24,14 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@theme {
+  --color-dark-red: #a54034;
+  --color-anzac: #c8913f;
+  --color-dark-gray-cyan: #8aa295;
+  --color-raven-black: #3d3d3d;
+  --color-neutral-gray: #f6f6f6;
+  --color-half-colonial-white: #f2e6c8;
+  --color-gray-10: #1a1a1a;
+  --color-black-out: #222222;
+}

@@ -1,16 +1,11 @@
 'use client';
 
-import React, { useState, useEffect } from 'react';
+import React, {} from 'react';
 import { Star, Settings, FileText, MessageCircle } from 'lucide-react';
 
 const DNSPropertyHomepage = () => {
-  const [scrollY, setScrollY] = useState(0);
 
-  useEffect(() => {
-    const handleScroll = () => setScrollY(window.scrollY);
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
+
 
   return (
     <div className="min-h-screen bg-white">
@@ -90,7 +85,7 @@ const DNSPropertyHomepage = () => {
                   
                   {/* Quote text */}
                   <p className="text-gray-700 mb-6 italic text-lg leading-relaxed">
-                    "{testimonial.text}"
+                    &ldquo;{testimonial.text}&ldquo;
                   </p>
                   
                   {/* Author with subtle accent */}
@@ -126,7 +121,7 @@ const DNSPropertyHomepage = () => {
             Proudly Serving the Great Falls, MT Community
           </h2>
           <p className="text-xl md:text-2xl mb-10 italic leading-relaxed">
-            "Locally rooted. Committed to property owners and tenants across Great Falls."
+            &ldquo;Locally rooted. Committed to property owners and tenants across Great Falls.&ldquo;
           </p>
           <button 
             className="text-white px-10 py-5 rounded-lg text-lg font-semibold transition-all duration-300 transform hover:scale-105 hover:shadow-lg"
@@ -202,7 +197,7 @@ const DNSPropertyHomepage = () => {
                   
                   {/* Description with better styling */}
                   <p className="text-gray-600 leading-relaxed mb-6 text-lg font-medium">
-                    "{service.description}"
+                    &ldquo;{service.description}&ldquo;
                   </p>
                   
                   {/* Details with decorative element */}

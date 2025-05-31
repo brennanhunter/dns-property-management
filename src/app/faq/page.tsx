@@ -1,7 +1,7 @@
 'use client'
 
 import { useState } from 'react'
-import { ChevronDown, Users, Home, Phone, Mail, Shield, Calendar } from 'lucide-react'
+import { ChevronDown, Users, Home, Phone, Mail} from 'lucide-react'
 import Image from 'next/image'
 
 export default function FAQPage() {

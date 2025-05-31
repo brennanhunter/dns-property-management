@@ -22,26 +22,26 @@ export default function Header() {
 
   return (
     <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrollY > 50 ? 'bg-black/70 backdrop-blur-sm' : ''}`}>
-      <nav className="container mx-auto px-20 py-16">
+      <nav className="container mx-auto px-4 sm:px-6 lg:px-20 py-4 sm:py-8 lg:py-16">
         <div className="flex justify-between items-center">
           {/* Phone Number - Left Side */}
           <a 
             href="tel:+14065906089"
-            className="flex items-center gap-3 text-white hover:text-anzac transition-all duration-300 font-medium text-lg group"
+            className="flex items-center gap-2 sm:gap-3 text-white hover:text-anzac transition-all duration-300 font-medium text-sm sm:text-lg group"
           >
-            <div className="w-10 h-10 rounded-full bg-white/10 backdrop-blur-sm flex items-center justify-center group-hover:bg-anzac/20 transition-all duration-300">
-              <Phone className="w-5 h-5" />
+            <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-white/10 backdrop-blur-sm flex items-center justify-center group-hover:bg-anzac/20 transition-all duration-300">
+              <Phone className="w-4 h-4 sm:w-5 sm:h-5" />
             </div>
-            <span className="hidden sm:block">(406) 590-6089</span>
+            <span className="hidden xs:block">(406) 590-6089</span>
           </a>
 
           {/* Navigation Links - Right Side */}
-          <div className="flex space-x-16">
+          <div className="flex space-x-4 sm:space-x-8 lg:space-x-16">
             {['Home', 'About', 'FAQ', 'Contact'].map((item) => (
               <a 
                 key={item}
                 href={item === 'Home' ? '/' : `/${item.toLowerCase()}`}
-                className="text-white hover:text-anzac transition-all duration-300 font-medium text-lg relative group"
+                className="text-white hover:text-anzac transition-all duration-300 font-medium text-sm sm:text-lg relative group"
               >
                 {item}
                 <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-anzac transition-all duration-300 group-hover:w-full"></span>

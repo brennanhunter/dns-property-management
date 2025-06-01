@@ -206,7 +206,7 @@ export default function Footer() {
             rel="noopener noreferrer"
             className="inline-block bg-gradient-to-r from-purple-500 via-pink-500 to-blue-500 bg-clip-text text-transparent animate-pulse hover:animate-shimmer"
           >
-            3D-printed and pixel-polished by Xtremery · Deland, FL
+            Pixel-polished by Xtremery · Deland, FL
           </a>
         </p>
           </div>

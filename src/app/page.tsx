@@ -106,18 +106,7 @@ const DNSPropertyHomepage = () => {
         />
       </Head>
       <div className="min-h-screen bg-white">
-        {/* Navbar for better navigation and SEO */}
-        <nav className="sticky top-0 z-50 bg-white shadow-md">
-          <div className="container mx-auto px-6 py-4 flex justify-between items-center">
-            <div className="text-2xl font-bold text-gray-800">D&amp;S Property Management</div>
-            <div className="flex space-x-6">
-              <a href="#testimonials" className="text-gray-600 hover:text-gray-900">Testimonials</a>
-              <a href="#services" className="text-gray-600 hover:text-gray-900">Services</a>
-              <a href="#about" className="text-gray-600 hover:text-gray-900">About</a>
-              <a href="#contact" className="text-gray-600 hover:text-gray-900">Contact</a>
-            </div>
-          </div>
-        </nav>
+
 
         {/* Hero Section - Added alt text, more CTAs */}
         <section 

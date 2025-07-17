@@ -388,7 +388,7 @@ const DNSPropertyHomepage = () => {
         <section id="contact" className="py-20" style={{backgroundColor: '#8aa295'}}>
           <div className="container mx-auto px-6">
             <h2 className="text-4xl md:text-5xl font-bold text-center mb-16 text-gray-800">
-              Get in Touch - Let's Manage Your Property Today
+              Get in Touch - Let&apos;s Manage Your Property Today
             </h2>
             <div className="grid md:grid-cols-2 gap-12 max-w-5xl mx-auto">
               <div>
@@ -427,7 +427,7 @@ const DNSPropertyHomepage = () => {
                     Submit Inquiry
                   </button>
                 </form>
-                <p className="mt-4 text-sm text-gray-500">We'll respond within 24 hours. Your information is secure.</p>
+                <p className="mt-4 text-sm text-gray-500">We&apos;ll respond within 24 hours. Your information is secure.</p>
               </div>
             </div>
           </div>

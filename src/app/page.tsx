@@ -352,12 +352,12 @@ const DNSPropertyHomepage = () => {
             </h2>
             <div className="grid md:grid-cols-2 gap-12 max-w-5xl mx-auto">
               <div>
-                <Image
-                  src="/images/about-sue.jpg" // Assume an image of Sue or team
-                  alt="Susette from D&S Property Management in Great Falls, MT"
+                <img
+                  src="/images/BrickWallPose.JPG"
+                  alt="Professional property management team at D&S Property Management in Great Falls, MT"
                   width={600}
                   height={400}
-                  className="rounded-lg shadow-lg"
+                  className="rounded-lg shadow-lg w-full h-auto"
                 />
               </div>
               <div className="flex flex-col justify-center">
